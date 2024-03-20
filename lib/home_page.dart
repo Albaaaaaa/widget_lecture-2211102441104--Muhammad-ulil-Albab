@@ -51,3 +51,14 @@ class HomePage extends StatelessWidget {
                 Container(width: 50.0, height: 50.0, color: Colors.brown),
               ],
             ),
+
+            const SizedBox(height: 20.0),
+            const Text(
+              '4. Image:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Image.network(
+              'https://images.pexels.com/photos/10394427/pexels-photo-10394427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1/150',
+              width: 150.0,
+              height: 150.0,
+            ),
