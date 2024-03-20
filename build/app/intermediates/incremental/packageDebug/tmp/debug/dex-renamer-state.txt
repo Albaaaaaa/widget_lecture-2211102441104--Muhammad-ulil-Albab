@@ -1,0 +1,4 @@
+#Wed Mar 20 14:40:49 WITA 2024
+base.0=C\:\\Users\\ASUS TUF\\Documents\\KULIAH\\SEMESTER 4\\Tugas flutter 3\\widget_lecturer\\widget_lecturer\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
