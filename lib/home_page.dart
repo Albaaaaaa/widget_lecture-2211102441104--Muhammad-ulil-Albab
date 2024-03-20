@@ -37,3 +37,17 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+
+            const SizedBox(height: 20.0),
+            const Text(
+              '3. Row dan Column:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Container(width: 50.0, height: 50.0, color: Colors.grey),
+                Container(width: 50.0, height: 50.0, color: Colors.black),
+                Container(width: 50.0, height: 50.0, color: Colors.brown),
+              ],
+            ),
