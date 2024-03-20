@@ -137,6 +137,29 @@ class HomePage extends StatelessWidget {
               child: Container(color: Color.fromARGB(255, 10, 230, 255)),
             ),
 
+            const SizedBox(height: 20.0),
+            const Text(
+              '11. ListView:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(
+              height: 150.0,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: [
+                  Container(width: 150.0, color: Color.fromARGB(255, 93, 2, 248)),
+                  Container(width: 150.0, color: Color.fromARGB(255, 13, 139, 218)),
+                  Container(width: 150.0, color: Color.fromARGB(255, 140, 0, 255)),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
             
 
             
