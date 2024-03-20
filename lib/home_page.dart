@@ -113,6 +113,20 @@ class HomePage extends StatelessWidget {
               ),
             ),
 
+            const SizedBox(height: 20.0),
+            const Text(
+              '9. Center:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            Center(
+              child: Container(
+                width: 100.0,
+                height: 100.0,
+                color: Colors.orange,
+                child: const Text('Center'),
+              ),
+            ),
+
             
 
             
