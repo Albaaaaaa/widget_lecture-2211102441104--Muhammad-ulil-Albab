@@ -62,3 +62,10 @@ class HomePage extends StatelessWidget {
               width: 150.0,
               height: 150.0,
             ),
+
+            const SizedBox(height: 20.0),
+            const Text(
+              '5. Icon:',
+              style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+            ),
+            const Icon(Icons.favorite, size: 50.0, color: Color.fromARGB(255, 0, 0, 0)),
